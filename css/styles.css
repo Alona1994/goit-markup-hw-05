@@ -706,13 +706,67 @@ background-color: #31d0aa;
   fill: #f4f4fd;
 
 }
-
-        
-
 .heder {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+  
+
+/*------------- MODAL -----------------------*/
+
+.modal {
+  width: 408px;
+height: 584px;
+border-radius: 4px;
+background: var(--DAIRY, #FCFCFC);
+ position: fixed;
+ inset: 0;       
+ display: flex;       
+ align-items: center;       
+ justify-content: center;       
+ background-color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));             
+visibility: visible;
+
+} 
+.is-hidden {
+  /* display: none;
+  visibility: hidden;
+  pointer-events: none; */
+}
+ .modal-div {
+  position: relative;
+  width: 610px;
+  background-color: var(--DAIRY, #FCFCFC);
+  border-radius: 15px;
+  padding: 48px;
+} 
+.modal-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.modal-text {
+}
+
+.modal-send {
+  color: var(--WHITE, #FFF);
+text-align: center;
+/* Button Text */
+font-family: Roboto;
+font-size: 16px;
+
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.04em;
+  display: inline-flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
 
 
 
