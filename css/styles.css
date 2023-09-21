@@ -774,7 +774,9 @@ cursor: pointer;
  border: none; 
 
 }
-
+ .email-svg {
+  margin-left: 16px;
+ }
 
 
 
