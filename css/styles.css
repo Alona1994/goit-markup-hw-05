@@ -710,9 +710,50 @@ background-color: #31d0aa;
   padding-top: 24px;
   padding-bottom: 24px;
 }
+/*----------------- MODAL 1 ---------------------  */
+.email {
+}
+.email-title {
+  color: var(--WHITE, #FFF);
+/* Body Medium */
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.02em;
+}
+.email-form {
+  display: flex;
   
+}
+.email-label {
+ 
+}
+.email-sumbit {
+  color: var(--WHITE, #FFF);
+text-align: center;
+/* Button Text */
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.04em;
+  border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 16px;
 
-/*------------- MODAL -----------------------*/
+
+}
+
+
+
+
+
+
+/*------------- MODAL 2 -----------------------*/
 
 .modal {
   width: 100%;
@@ -736,7 +777,8 @@ visibility: visible;
 }
  .modal-div {
    position: absolute;
-  width: 610px;
+  
+  width: 408px;
   min-height: 584px;
   top: 50%;
   left: 50%;
