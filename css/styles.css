@@ -797,7 +797,7 @@ background: var(--DAIRY, #FCFCFC);
  background-color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));             
 visibility: visible;
  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+padding: 72px 24px 24px 24px;
 } 
 .is-hidden {
   /* display: none;
@@ -837,9 +837,19 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 
 }
 
-.modal-close:hover:focus {
-  background-color: #404bbf;
-  border: none;
+.modal-close:hover {
+    background-color: #404bbf;
+    border: none;
+    fill: #ffffff
+}
+
+.modal-close:focus {
+    background-color: #404bbf; 
+    border: none; 
+    fill: #ffffff
+}
+
+.modal-svg { transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -864,7 +874,9 @@ border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-
+ .modal-caption {
+  padding: 72px;
+ }
 
 
 
